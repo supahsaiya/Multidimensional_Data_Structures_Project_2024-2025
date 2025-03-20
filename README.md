@@ -1,39 +1,13 @@
 # Multidimensional-Data-Structures---Project-2024-2025
 
-Οδηγίες για την εκτέλεση του project
-////////////////////////////////////
+Multi-dimensional Data Indexing and Similarity Query Processing:
+Development of Multidimensional Access Methods based on k-d trees, quad trees, Range
+Trees and R-trees respectively to support k-dimensional queries. 
+After the 1st phase of indexing, in a 2nd phase, we perform similarity queries according to a specific textual
+attribute (f.e. review comments, etc) based on LSH technique. The final task is an
+exhausted evaluation performance comparison among the 4 proposed schemes: k-d
++ LSH, Quad + LSH, Range + LSH, R-trees + LSH.
 
-Τα αρχεία έιναι χωρισμένα ως εξής:
+Using the Coffee Reviews Dataset found on Kaggle (https://www.kaggle.com/datasets/schmoyote/coffee-reviews-dataset)
 
--στο main.py γίνεται η γενική υλοποίηση 
--στον φάκελο data βρίσκεται το dataset (simplified_coffee.csv)
--στον φάκελο src βρίσκονται τα αρχεία:
-	-utils.py (με χρήσιμες συναρτήσεις)
-	-lsh.py (υλοποίηση της lsh)
-	-data_structures/
-		-περιέχει τις υλοποιήσεις των 4 δομών
-
--το .vscode δημιουργείται αυτόματα από το Visual Studio Code -το αγνοούμε 
-
-
-
-//////////////////////////////////
-
-Στο main.py:
-
-Αρχικά βρίσκονται οι συναρτήσεις για testing των δομών, εφαρμογή φίλτρων και processing.
-Στη συνέχεια βρίσκονται οι συναρτήσεις για testing των δομών με LSH, σύγκριση και δημιουργία γραφημάτων.
-Στο τέλος βρίσκεται η main().
-
-Οι κλήσεις όλων των συναρτήσεων βρίσκονται σε #comment στη main().
-Σε #comment επίσης βρίσκονται labels για το τι κάνει η καθεμία.
-Ανάλογα με την συνάρτηση που θέλουμε να τρέξουμε κάθε φορά, την αφαιρούμε απο τα comments.
-
-Η τελευταία συνάρτηση:
-
-# Run comparison
-#compare_data_structures(filtered_data, query_params)
-
-τρέχει όλες τις δομές με lsh, κάνει σύγκριση και εμφανίζει τα διαγράμματα.
-
-/////////////////////////////////
+_In depth description coming soon_
